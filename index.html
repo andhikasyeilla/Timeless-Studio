@@ -187,5 +187,529 @@
 
 
   <script src="script.js"></script>
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Timeless Studio — Creative Agency, Studio Foto, Editing Profesional & Videografi di Bandung." />
+  <meta name="keywords" content="studio foto bandung, foto wisuda, prewedding, foto produk, editing foto, videografi, timeless studio" />
+  <meta property="og:title" content="Timeless Studio — Self Photo Studio & Creative Agency" />
+  <meta property="og:description" content="Abadikan momen terbaik Anda bersama Timeless Studio. Studio foto profesional, editing & videografi sinematik." />
+  <meta property="og:type" content="website" />
+
+  <title>Timeless Studio — Self Photo Studio & Creative Agency</title>
+
+  <!-- Google Fonts: Cormorant Garamond (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+
+      <!-- Logo -->
+      <a href="#" class="navbar__logo" aria-label="Timeless Studio Home">
+        <div class="navbar__logo-icon">
+          <!-- Camera SVG inline — matches brand mark -->
+          <svg width="36" height="28" viewBox="0 0 36 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <!-- top camera body -->
+            <rect x="8" y="0" width="5" height="5" rx="1" fill="#E07B5A"/>
+            <rect x="15" y="0" width="8" height="7" rx="1" fill="#E07B5A"/>
+            <rect x="25" y="0" width="5" height="5" rx="1" fill="#E07B5A"/>
+            <!-- main body -->
+            <rect x="0" y="5" width="36" height="22" rx="3" fill="#2D5A63"/>
+            <!-- lens ring -->
+            <circle cx="18" cy="16" r="9" fill="white"/>
+            <circle cx="18" cy="16" r="7.5" stroke="#C8843A" stroke-width="1.5" fill="none"/>
+            <!-- clock hand -->
+            <line x1="11" y1="16" x2="25" y2="16" stroke="#E07B5A" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="18" cy="16" r="1.5" fill="#E07B5A"/>
+          </svg>
+        </div>
+        <div class="navbar__logo-text">
+          <span class="navbar__logo-name">TIMELESS</span>
+          <span class="navbar__logo-tagline">STUDIO</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="navbar__nav" aria-label="Main Navigation">
+        <ul class="navbar__links">
+          <li><a href="#services" class="navbar__link">Layanan</a></li>
+          <li><a href="#portfolio" class="navbar__link">Portfolio</a></li>
+          <li><a href="#about" class="navbar__link">Tentang</a></li>
+          <li><a href="#contact" class="navbar__link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA Button -->
+      <a href="#contact" class="btn btn--gold navbar__cta">Book Session</a>
+
+      <!-- Hamburger (mobile) -->
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="navbar__mobile-menu" id="mobileMenu" aria-hidden="true">
+      <ul class="navbar__mobile-links">
+        <li><a href="#services" class="navbar__mobile-link">Layanan</a></li>
+        <li><a href="#portfolio" class="navbar__mobile-link">Portfolio</a></li>
+        <li><a href="#about" class="navbar__mobile-link">Tentang</a></li>
+        <li><a href="#contact" class="navbar__mobile-link">Kontak</a></li>
+        <li><a href="#contact" class="btn btn--gold navbar__mobile-cta">Book Session</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+
+      <!-- Left: Text Column -->
+      <div class="hero__text">
+        <p class="hero__eyebrow">Creative Agency · Bandung</p>
+
+        <h1 class="hero__headline">
+          <span class="hero__headline-line">Setiap Momen</span>
+          <span class="hero__headline-line hero__headline-line--gold">Layak Abadi.</span>
+        </h1>
+
+        <div class="hero__divider" aria-hidden="true">
+          <span class="hero__divider-line"></span>
+          <span class="hero__divider-dot"></span>
+          <span class="hero__divider-line"></span>
+        </div>
+
+        <p class="hero__body">
+          Studio foto profesional, editing sinematik, dan produksi visual berkelas — 
+          semua dalam satu atap. Kami mengubah momen menjadi warisan visual yang tak lekang oleh waktu.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#services" class="btn btn--gold">Jelajahi Layanan</a>
+          <a href="#portfolio" class="btn btn--ghost">Lihat Portfolio</a>
+        </div>
+
+        <!-- Trust Indicators -->
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-num">500<span class="hero__stat-plus">+</span></span>
+            <span class="hero__stat-label">Sesi Selesai</span>
+          </div>
+          <div class="hero__stat-divider" aria-hidden="true"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">4.9<span class="hero__stat-plus">★</span></span>
+            <span class="hero__stat-label">Rating Klien</span>
+          </div>
+          <div class="hero__stat-divider" aria-hidden="true"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">3<span class="hero__stat-plus">+</span></span>
+            <span class="hero__stat-label">Tahun Pengalaman</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Visual Column -->
+      <div class="hero__visual" aria-hidden="true">
+        <!-- Decorative background ring -->
+        <div class="hero__visual-ring hero__visual-ring--outer"></div>
+        <div class="hero__visual-ring hero__visual-ring--inner"></div>
+
+        <!-- Camera Mark (large decorative) -->
+        <div class="hero__camera-mark">
+          <svg viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero__camera-svg">
+            <!-- top body -->
+            <rect x="40" y="0" width="28" height="28" rx="4" fill="#E07B5A" opacity="0.9"/>
+            <rect x="78" y="0" width="44" height="38" rx="4" fill="#E07B5A" opacity="0.9"/>
+            <rect x="132" y="0" width="28" height="28" rx="4" fill="#E07B5A" opacity="0.9"/>
+            <!-- main body -->
+            <rect x="0" y="28" width="200" height="125" rx="12" fill="#2D5A63"/>
+            <!-- lens outer ring gold -->
+            <circle cx="100" cy="91" r="52" fill="white"/>
+            <circle cx="100" cy="91" r="44" stroke="#C8843A" stroke-width="3" fill="none" opacity="0.7"/>
+            <!-- clock hand - the brand signature -->
+            <line x1="58" y1="91" x2="142" y2="91" stroke="#E07B5A" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="100" cy="91" r="7" fill="#E07B5A"/>
+            <circle cx="100" cy="91" r="3" fill="white"/>
+          </svg>
+        </div>
+
+        <!-- Floating label chips -->
+        <div class="hero__chip hero__chip--1">
+          <span class="hero__chip-icon">◎</span>
+          <span>Studio Photography</span>
+        </div>
+        <div class="hero__chip hero__chip--2">
+          <span class="hero__chip-icon">✦</span>
+          <span>Pro Editing</span>
+        </div>
+        <div class="hero__chip hero__chip--3">
+          <span class="hero__chip-icon">▶</span>
+          <span>Videografi</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span class="hero__scroll-line"></span>
+      <span class="hero__scroll-text">Scroll</span>
+    </div>
+  </section>
+
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="about__inner">
+
+      <!-- Left: Brand Philosophy -->
+      <div class="about__philosophy">
+        <p class="section-eyebrow">Tentang Kami</p>
+        <blockquote class="about__quote">
+          <span class="about__quote-mark">"</span>
+          Waktu terus berjalan — tapi gambar yang tepat
+          <em>membekukan sebuah perasaan untuk selamanya.</em>
+        </blockquote>
+        <p class="about__body">
+          Timeless Studio lahir dari keyakinan bahwa setiap momen berharga bukan sekadar
+          dikenang, melainkan diabadikan dengan standar tertinggi. Kami adalah tim fotografer,
+          editor, dan sineas yang bekerja dengan mata seniman dan hati pencerita.
+        </p>
+        <p class="about__body">
+          Berbasis di Bandung, kami melayani klien dari seluruh Indonesia — dari sesi portrait
+          intim hingga proyek videografi skala penuh.
+        </p>
+        <a href="#contact" class="btn btn--ghost about__btn">Kenali Kami Lebih Dekat</a>
+      </div>
+
+      <!-- Right: Brand Pillars -->
+      <div class="about__pillars">
+        <div class="about__pillar">
+          <div class="about__pillar-num">01</div>
+          <div class="about__pillar-content">
+            <h3 class="about__pillar-title">Presisi Visual</h3>
+            <p class="about__pillar-body">
+              Setiap frame dikomposisi dengan cermat. Kami tidak hanya memotret — 
+              kami merancang gambar yang berbicara tanpa kata.
+            </p>
+          </div>
+        </div>
+        <div class="about__pillar">
+          <div class="about__pillar-num">02</div>
+          <div class="about__pillar-content">
+            <h3 class="about__pillar-title">Estetika Otentik</h3>
+            <p class="about__pillar-body">
+              Gaya editing kami menghindari tren sesaat. Kami menciptakan visual 
+              yang terasa klasik sekaligus segar — timeless by design.
+            </p>
+          </div>
+        </div>
+        <div class="about__pillar">
+          <div class="about__pillar-num">03</div>
+          <div class="about__pillar-content">
+            <h3 class="about__pillar-title">Pengalaman Premium</h3>
+            <p class="about__pillar-body">
+              Dari booking hingga file final, setiap langkah dirancang agar klien 
+              merasa dihargai dan hasilnya melebihi ekspektasi.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="services" id="services">
+    <div class="services__inner">
+
+      <!-- Section Header -->
+      <div class="services__header">
+        <p class="section-eyebrow">Yang Kami Tawarkan</p>
+        <h2 class="section-heading">Layanan <em>Kami</em></h2>
+        <p class="services__subtitle">
+          Tiga pilar keahlian kami, satu standar kualitas yang tidak pernah berkompromi.
+        </p>
+      </div>
+
+      <!-- Tab Navigation -->
+      <div class="services__tabs" role="tablist" aria-label="Kategori Layanan">
+        <button class="services__tab is-active" role="tab" aria-selected="true"
+                aria-controls="panel-photo" id="tab-photo" data-tab="photo">
+          <span class="services__tab-icon">◎</span>
+          Studio Photography
+        </button>
+        <button class="services__tab" role="tab" aria-selected="false"
+                aria-controls="panel-edit" id="tab-edit" data-tab="edit">
+          <span class="services__tab-icon">✦</span>
+          Photo Editing
+        </button>
+        <button class="services__tab" role="tab" aria-selected="false"
+                aria-controls="panel-video" id="tab-video" data-tab="video">
+          <span class="services__tab-icon">▶</span>
+          Videography
+        </button>
+      </div>
+
+      <!-- ── TAB PANEL: Studio Photography ── -->
+      <div class="services__panel is-active" id="panel-photo"
+           role="tabpanel" aria-labelledby="tab-photo">
+
+        <!-- Bento Grid Layout -->
+        <div class="services__grid services__grid--photo">
+
+          <!-- Feature Card (large) -->
+          <article class="svc-card svc-card--feature" data-category="Studio Photography">
+            <div class="svc-card__bg">
+              <!-- Decorative: camera aperture SVG -->
+              <svg class="svc-card__deco" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="90" stroke="rgba(200,132,58,0.15)" stroke-width="1"/>
+                <circle cx="100" cy="100" r="65" stroke="rgba(200,132,58,0.2)" stroke-width="1.5"/>
+                <circle cx="100" cy="100" r="40" stroke="rgba(200,132,58,0.3)" stroke-width="2"/>
+                <circle cx="100" cy="100" r="18" fill="rgba(200,132,58,0.08)" stroke="rgba(200,132,58,0.4)" stroke-width="1.5"/>
+                <!-- Aperture blades -->
+                <line x1="100" y1="10" x2="100" y2="190" stroke="rgba(200,132,58,0.08)" stroke-width="1"/>
+                <line x1="10" y1="100" x2="190" y2="100" stroke="rgba(200,132,58,0.08)" stroke-width="1"/>
+                <line x1="29" y1="29" x2="171" y2="171" stroke="rgba(200,132,58,0.08)" stroke-width="1"/>
+                <line x1="171" y1="29" x2="29" y2="171" stroke="rgba(200,132,58,0.08)" stroke-width="1"/>
+              </svg>
+            </div>
+            <div class="svc-card__content">
+              <span class="svc-card__label">Unggulan</span>
+              <h3 class="svc-card__title">Studio Photography</h3>
+              <p class="svc-card__desc">
+                Sesi foto profesional di studio ber-AC dengan pencahayaan studio
+                premium dan berbagai backdrop pilihan. Cocok untuk semua kebutuhan Anda.
+              </p>
+              <ul class="svc-card__list">
+                <li>Foto Wisuda & Kelulusan</li>
+                <li>Prewedding & Engagement</li>
+                <li>Portrait & Headshot</li>
+                <li>Foto Produk & E-Commerce</li>
+                <li>Group & Corporate</li>
+              </ul>
+              <a href="#contact" class="btn btn--gold svc-card__btn">Booking Sekarang</a>
+            </div>
+          </article>
+
+          <!-- Sub-card 1 -->
+          <article class="svc-card svc-card--sub">
+            <div class="svc-card__icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <circle cx="16" cy="16" r="14" stroke="var(--clr-gold)" stroke-width="1.5"/>
+                <circle cx="16" cy="16" r="7" fill="none" stroke="var(--clr-gold)" stroke-width="1.5"/>
+                <circle cx="16" cy="16" r="2" fill="var(--clr-gold)"/>
+              </svg>
+            </div>
+            <h4 class="svc-card__sub-title">Self Photo Session</h4>
+            <p class="svc-card__sub-desc">
+              Booth foto mandiri dengan timer otomatis. Sempurna untuk konten sosial media atau kenang-kenangan personal.
+            </p>
+            <span class="svc-card__tag">Tersedia weekday & weekend</span>
+          </article>
+
+          <!-- Sub-card 2 -->
+          <article class="svc-card svc-card--sub">
+            <div class="svc-card__icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect x="2" y="8" width="28" height="18" rx="3" stroke="var(--clr-gold)" stroke-width="1.5"/>
+                <rect x="11" y="2" width="10" height="8" rx="2" fill="none" stroke="var(--clr-gold)" stroke-width="1.5"/>
+                <circle cx="16" cy="17" r="4" stroke="var(--clr-coral)" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h4 class="svc-card__sub-title">Foto Produk</h4>
+            <p class="svc-card__sub-desc">
+              Visual produk berkualitas tinggi untuk katalog, marketplace, dan iklan digital yang meningkatkan konversi.
+            </p>
+            <span class="svc-card__tag">Termasuk basic editing</span>
+          </article>
+
+          <!-- Stat Card -->
+          <article class="svc-card svc-card--stat">
+            <span class="svc-card__stat-num">15+</span>
+            <span class="svc-card__stat-label">Backdrop & Prop</span>
+            <p class="svc-card__stat-desc">Pilihan latar premium tersedia di studio kami</p>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ── TAB PANEL: Photo Editing ── -->
+      <div class="services__panel" id="panel-edit"
+           role="tabpanel" aria-labelledby="tab-edit">
+
+        <div class="services__grid services__grid--edit">
+
+          <article class="svc-card svc-card--feature">
+            <div class="svc-card__bg">
+              <svg class="svc-card__deco" viewBox="0 0 200 200" fill="none">
+                <rect x="20" y="40" width="160" height="120" rx="8" stroke="rgba(200,132,58,0.15)" stroke-width="1"/>
+                <rect x="40" y="60" width="120" height="80" rx="4" stroke="rgba(200,132,58,0.2)" stroke-width="1"/>
+                <!-- Histogram bars -->
+                <rect x="55" y="110" width="8" height="15" fill="rgba(200,132,58,0.1)"/>
+                <rect x="68" y="95" width="8" height="30" fill="rgba(200,132,58,0.15)"/>
+                <rect x="81" y="80" width="8" height="45" fill="rgba(200,132,58,0.2)"/>
+                <rect x="94" y="90" width="8" height="35" fill="rgba(200,132,58,0.25)"/>
+                <rect x="107" y="100" width="8" height="25" fill="rgba(200,132,58,0.2)"/>
+                <rect x="120" y="108" width="8" height="17" fill="rgba(200,132,58,0.15)"/>
+              </svg>
+            </div>
+            <div class="svc-card__content">
+              <span class="svc-card__label">Profesional</span>
+              <h3 class="svc-card__title">Photo Editing & Retouching</h3>
+              <p class="svc-card__desc">
+                Transformasi foto Anda dengan sentuhan editor berpengalaman. Dari koreksi
+                warna dasar hingga manipulasi artistik level tinggi.
+              </p>
+              <ul class="svc-card__list">
+                <li>Beauty Retouch & Skin Smoothing</li>
+                <li>Color Grading Sinematik</li>
+                <li>Background Manipulation</li>
+                <li>Prewedding Composite Art</li>
+                <li>Massal / Batch Editing</li>
+              </ul>
+              <a href="#contact" class="btn btn--gold svc-card__btn">Kirim Foto Anda</a>
+            </div>
+          </article>
+
+          <article class="svc-card svc-card--sub">
+            <div class="svc-card__icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path d="M4 28 L28 4" stroke="var(--clr-gold)" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="10" cy="22" r="6" stroke="var(--clr-coral)" stroke-width="1.5" fill="none"/>
+                <circle cx="22" cy="10" r="6" stroke="var(--clr-teal)" stroke-width="1.5" fill="none"/>
+              </svg>
+            </div>
+            <h4 class="svc-card__sub-title">Color Grading</h4>
+            <p class="svc-card__sub-desc">
+              Tone sinematik yang konsisten di seluruh album. Dari warm film look hingga moody editorial.
+            </p>
+            <span class="svc-card__tag">Termasuk LUT kustom</span>
+          </article>
+
+          <article class="svc-card svc-card--sub">
+            <div class="svc-card__icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <ellipse cx="16" cy="14" rx="7" ry="9" stroke="var(--clr-gold)" stroke-width="1.5" fill="none"/>
+                <path d="M9 22 Q16 30 23 22" stroke="var(--clr-gold)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <circle cx="16" cy="14" r="2.5" fill="var(--clr-coral)" opacity="0.6"/>
+              </svg>
+            </div>
+            <h4 class="svc-card__sub-title">Beauty Retouch</h4>
+            <p class="svc-card__sub-desc">
+              Kulit halus, proporsi natural, cahaya sempurna — tanpa kehilangan karakter asli wajah Anda.
+            </p>
+            <span class="svc-card__tag">Hasil dalam 24–48 jam</span>
+          </article>
+
+          <article class="svc-card svc-card--stat">
+            <span class="svc-card__stat-num">48h</span>
+            <span class="svc-card__stat-label">Turnaround</span>
+            <p class="svc-card__stat-desc">Waktu pengerjaan standar per sesi editing</p>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- ── TAB PANEL: Videography ── -->
+      <div class="services__panel" id="panel-video"
+           role="tabpanel" aria-labelledby="tab-video">
+
+        <div class="services__grid services__grid--video">
+
+          <article class="svc-card svc-card--feature">
+            <div class="svc-card__bg">
+              <svg class="svc-card__deco" viewBox="0 0 200 200" fill="none">
+                <!-- Film strip -->
+                <rect x="30" y="50" width="140" height="100" rx="6" stroke="rgba(200,132,58,0.15)" stroke-width="1"/>
+                <rect x="30" y="50" width="20" height="100" fill="rgba(200,132,58,0.05)" stroke="none"/>
+                <rect x="150" y="50" width="20" height="100" fill="rgba(200,132,58,0.05)" stroke="none"/>
+                <!-- Perforations -->
+                <rect x="35" y="60" width="10" height="8" rx="2" fill="rgba(200,132,58,0.2)"/>
+                <rect x="35" y="80" width="10" height="8" rx="2" fill="rgba(200,132,58,0.2)"/>
+                <rect x="35" y="100" width="10" height="8" rx="2" fill="rgba(200,132,58,0.2)"/>
+                <rect x="35" y="120" width="10" height="8" rx="2" fill="rgba(200,132,58,0.2)"/>
+                <rect x="155" y="60" width="10" height="8" rx="2" fill="rgba(200,132,58,0.2)"/>
+                <rect x="155" y="80" width="10" height="8" rx="2" fill="rgba(200,132,58,0.2)"/>
+                <rect x="155" y="100" width="10" height="8" rx="2" fill="rgba(200,132,58,0.2)"/>
+                <rect x="155" y="120" width="10" height="8" rx="2" fill="rgba(200,132,58,0.2)"/>
+                <!-- Play button -->
+                <polygon points="88,80 88,120 128,100" fill="rgba(200,132,58,0.2)" stroke="rgba(200,132,58,0.4)" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div class="svc-card__content">
+              <span class="svc-card__label">Sinematik</span>
+              <h3 class="svc-card__title">Videography & Cinematic</h3>
+              <p class="svc-card__desc">
+                Produksi video berkualitas sinema dengan grading warna profesional.
+                Kami merekam, mengedit, dan menghadirkan cerita visual yang emosional.
+              </p>
+              <ul class="svc-card__list">
+                <li>Wedding & Prewedding Film</li>
+                <li>Cinematic Portrait Video</li>
+                <li>Brand & Product Video</li>
+                <li>Reels & Short-form Content</li>
+                <li>Event & Dokumentasi</li>
+              </ul>
+              <a href="#contact" class="btn btn--gold svc-card__btn">Diskusi Project</a>
+            </div>
+          </article>
+
+          <article class="svc-card svc-card--sub">
+            <div class="svc-card__icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect x="2" y="9" width="20" height="14" rx="3" stroke="var(--clr-gold)" stroke-width="1.5" fill="none"/>
+                <polygon points="22,13 30,9 30,23 22,19" stroke="var(--clr-gold)" stroke-width="1.5" fill="none"/>
+              </svg>
+            </div>
+            <h4 class="svc-card__sub-title">Wedding Film</h4>
+            <p class="svc-card__sub-desc">
+              Dokumentasi hari spesial dalam format sinematik penuh emosi yang bisa Anda simpan selamanya.
+            </p>
+            <span class="svc-card__tag">Full day coverage</span>
+          </article>
+
+          <article class="svc-card svc-card--sub">
+            <div class="svc-card__icon-wrap">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <rect x="4" y="4" width="24" height="24" rx="4" stroke="var(--clr-gold)" stroke-width="1.5" fill="none"/>
+                <polygon points="13,11 13,21 21,16" fill="var(--clr-coral)" opacity="0.7"/>
+              </svg>
+            </div>
+            <h4 class="svc-card__sub-title">Brand Content</h4>
+            <p class="svc-card__sub-desc">
+              Video iklan dan konten brand yang membangun identitas visual bisnis Anda di era digital.
+            </p>
+            <span class="svc-card__tag">Termasuk script & storyboard</span>
+          </article>
+
+          <article class="svc-card svc-card--stat">
+            <span class="svc-card__stat-num">4K</span>
+            <span class="svc-card__stat-label">Resolusi</span>
+            <p class="svc-card__stat-desc">Standar produksi video kami untuk semua project</p>
+          </article>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="js/script.js"></script>
 </body>
 </html>
